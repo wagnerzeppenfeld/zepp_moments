@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zepp Moments Produtos Personalizados</title>
+    
+    <!-- Ícone do Font Awesome para carregar o logo oficial do Instagram -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <style>
         :root {
             --primary-bg: #FDF0F3;
@@ -193,6 +197,26 @@
 
         .btn-cta {
             display: inline-block;
+            background-color: #25D366; /* Verde oficial do WhatsApp */
+            color: #FFFFFF;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 1rem 2.5rem;
+            border-radius: 40px;
+            text-decoration: none;
+            margin-top: 1.5rem;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-cta:hover {
+            background-color: #128C7E;
+            transform: scale(1.03);
+            box-shadow: 0 6px 20px rgba(18, 140, 126, 0.5);
+        }
+
+        .btn-cta2 {
+            display: inline-block;
             background-color: var(--pink-accent);
             color: #FFFFFF;
             font-size: 1.2rem;
@@ -203,11 +227,37 @@
             margin-top: 1.5rem;
             box-shadow: 0 4px 15px rgba(232, 91, 136, 0.4);
             transition: all 0.3s ease;
-        }
+        } 
 
-        .btn-cta:hover {
+        .btn-cta2:hover {
             background-color: var(--purple-dark);
             transform: scale(1.03);
+        }
+
+        /* Botão Flutuante do Instagram */
+        .btn-instagram-float {
+            position: fixed;
+            bottom: 130px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            text-decoration: none;
+            z-index: 9999;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-instagram-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+            color: #FFFFFF;
         }
 
         footer {
@@ -268,7 +318,7 @@
             <span class="hero-tag">Zepp Moments Personalizados</span>
             <h1 class="hero-title">Transformando momentos especiais...</h1>
             <p class="hero-subtitle">Aqui, cada detalhe é pensado com cuidado, cada criação é feita com afeto, e cada entrega é um pedacinho da nossa história compartilhada com você. Porque celebrar momentos especiais é, acima de tudo, celebrar vínculos e memórias que ficam para sempre no coração.</p>
-            <a href="#pedidos" class="btn-cta">Garantir Caneca Personalizada</a>
+            <a href="#pedidos" class="btn-cta2">Garantir Caneca Personalizada</a>
         </div>
         <div class="product-card">
             <img src="caneca.jpg" alt="Caneca Personalizada Professora Maristela" class="product-img">
@@ -308,6 +358,11 @@
     <footer>
         <p>&copy; 2026 Zepp Moments Personalizados. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- Botão Flutuante do Instagram -->
+    <a href="https://www.instagram.com/zeppmomentspersonalizados/" class="btn-instagram-float" target="_blank" rel="noopener noreferrer" aria-label="Siga no Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
 
 </body>
 </html>
