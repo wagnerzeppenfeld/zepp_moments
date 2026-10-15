@@ -1,5 +1,5 @@
 Documentação — Landing Page Zepp Moments Personalizados
-Esta documentação está dividida em duas seções/páginas completas para apresentar o projeto acadêmico e comercial da Zepp Moments Produtos Personalizados.
+Esta documentação dividida em duas seções para apresentar o projeto acadêmico e comercial da Zepp Moments Produtos Personalizados.
 ---
 PÁGINA 1: Apresentação, Objetivos e Identidade Visual
 1. Contexto Acadêmico e Profissional
